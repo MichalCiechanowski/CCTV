@@ -14,14 +14,14 @@ body {
     display: inline-grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    grid-gap: 50px 50px;
+    grid-gap: 20px 10px;
 }
 
 .camera {
     background-color: rgb(180, 166, 166);
     margin: auto;
-    width: 500px;
-    height: 300px;
+    width: 530px;
+    height: 350px;
 }
 
 .img {
@@ -49,8 +49,6 @@ body {
 .goback:hover {
     background-color: var(--button_font_color);
     color: var(--buutton_color);
-    width: 160px;
-    height: 65px;
     border: 2px var(--button_font_color) solid;
     transition-duration: .5s;
 }
