@@ -3,25 +3,25 @@
     --button_font_color: white;
 }
 
-body {
+body,
+html {
     background-color: gray;
+    height: 99%;
 }
 
 .camerabox {
     background-color: rgb(107, 104, 104);
     width: 100%;
     height: 100%;
-    display: inline-grid;
+    display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
-    grid-gap: 20px 10px;
 }
 
 .camera {
     background-color: rgb(180, 166, 166);
     margin: auto;
-    width: 530px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
 }
 
 .img {
