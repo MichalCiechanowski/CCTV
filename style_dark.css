@@ -33,7 +33,7 @@ html {
 }
 
 .bar {
-    background-color: rgb(58, 46, 46);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     text-align: right;
     height: 30px;
     width: 100%;
@@ -61,7 +61,13 @@ html {
 
 .link {
     text-decoration: none;
-    color: black;
+    background-color: var(--dark_theme_color);
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .camera {

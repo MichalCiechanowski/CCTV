@@ -33,7 +33,7 @@ html {
 }
 
 .bar {
-    background-color: rgb(172, 163, 163);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     text-align: right;
     height: 30px;
     width: 100%;
@@ -62,7 +62,13 @@ html {
 
 .link {
     text-decoration: none;
-    color: black;
+    background-color: var(--light_theme_color);
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .camera {
@@ -78,21 +84,23 @@ html {
 .img {
     background-color: var(--light_theme_color);
     width: 100%;
-}
-
-.button_container {
-    text-align: center;
+    height: 100%;
 }
 
 .goback {
-    background-color: var(--buutton_color);
-    color: var(--button_font_color);
+    top: 5%;
+    right: 87%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: transparent;
+    color: black;
     font-size: large;
     text-decoration: none;
     text-transform: uppercase;
     width: 150px;
     height: 60px;
-    border: 2px var(--buutton_color) solid;
+    border: 2px transparent solid;
     border-radius: 10px;
     transition-duration: .5s;
 }
